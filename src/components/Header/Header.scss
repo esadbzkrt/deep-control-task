@@ -1,0 +1,36 @@
+.header {
+  background-color: #fff;
+  border-bottom: 1px solid #e5e5e5;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .1);
+  height: 60px;
+  top: 0;
+  width: 100%;
+
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+
+
+  &-left {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+
+  &-right {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-left: 1rem;
+    &-logout{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
+  }
+}

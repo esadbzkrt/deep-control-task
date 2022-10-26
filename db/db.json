@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin"
+    },
+    {
+      "id": 2,
+      "username": "user",
+      "password": "user"
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "AOC",
+      "lat": 39.9479571202299,
+      "lng": 32.80755348900176
+    },
+    {
+      "id": 2,
+      "name": "Sıhhiye",
+      "latitude": 39.92834467438477,
+      "longitude": 32.85496304026162
+    },
+    {
+      "id": 3,
+      "name": "Kızılay",
+      "latitude": 39.92081986895831,
+      "longitude": 32.85406055956941
+    },
+    {
+      "id": 4,
+      "name": "Keçiören Şelalesi",
+      "latitude": 39.97798128370851,
+      "longitude": 32.86691616161212
+    },
+    {
+      "id": 5,
+      "name": "Kuğulu Park",
+      "latitude": 39.90205167088104,
+      "longitude": 32.86018391529311
+    }
+  ]
+}
