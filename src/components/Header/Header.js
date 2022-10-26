@@ -14,14 +14,14 @@ function Header(user) {
     return (
         <div className="header">
             <div className="header-left">
-                <TbMapSearch/>
+                <TbMapSearch size="24px"/>
                 <h1>Map App</h1>
             </div>
 
             <div className="header-right">
                 <h5>username</h5>
                 <div className="header-right-logout" onClick={logout}>
-                    <BiLogOut/>
+                    <BiLogOut size="24px" />
                     <h4>Logout</h4>
                 </div>
             </div>
